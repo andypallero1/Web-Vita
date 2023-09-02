@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Vita</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <script>
+        function mostrar(id)
+        {
+           var objeto=document.getElementById(id)
+              objeto.style.display="block";
+        }
+        function ocultar(id)
+        {
+           var objeto=document.getElementById(id)
+              objeto.style.display="none";
+        }
+     </script>
+</head>
+
+<body style="width: 100%;" >
+
+<div class="body">
+    <center>
+    <!-- IMG TRES LINEAS -->
+    <div >
+        <img class="tcolores" src="img/recursos/lineas 3 colores - arriba.jpg" alt="">
+    </div>
+    <!-- IMG LOGO -->
+    <div>
+        <img class="logo" src="img/recursos/logo.png" alt="">
+    </div>
+    <!-- IMG INFO -->
+    <div>
+        <img class="vitainfo" src="img/recursos/vita+recuadro verde con info.png" alt="">
+    </div>
+    <!-- IMG SUSTENTABILIDAD -->
+    <div>
+        <img class="sustentab" src="img/recursos/sustentabilidad.png" alt="">
+    </div>
+    <!-- IMG EDIFICIO(CONFORT Y CALIDAD) -->
+    <div>
+        <img class="confort" src="img/recursos/confort y calidad.png" alt="">
+    </div>
+    <!-- IMG DETALLES -->
+    <div>
+        <img class="detalles" src="img/recursos/detalles.png" alt="">
+    </div>
+    <!-- MULTI IMG CON HOVER -->
+    <div>
+        <img class="img1"  alt="" onmouseout="this.src='img/recursos/imágenes cursor/imagen 1.png';" onmouseover="this.src='img/recursos/imágenes cursor/imagen 1-1.png';" src="img/recursos/imágenes cursor/imagen 1.png" />
+        <img class="img2"  alt="" onmouseout="this.src='img/recursos/imágenes cursor/imagen 2.png';" onmouseover="this.src='img/recursos/imágenes cursor/imagen 2-2.png';" src="img/recursos/imágenes cursor/imagen 2.png" />
+    </div>
+    <div>
+        <img class="img3"  alt="" onmouseout="this.src='img/recursos/imágenes cursor/imagen 3.png';" onmouseover="this.src='img/recursos/imágenes cursor/imagen 3-3.png';" src="img/recursos/imágenes cursor/imagen 3.png" />
+        <img class="img4"  alt="" onmouseout="this.src='img/recursos/imágenes cursor/imagen 4.png';" onmouseover="this.src='img/recursos/imágenes cursor/imagen 4-4.png';" src="img/recursos/imágenes cursor/imagen 4.png" />
+    </div>
+    <div>
+        <img class="img5"  alt="" onmouseout="this.src='img/recursos/imágenes cursor/imagen 5.png';" onmouseover="this.src='img/recursos/imágenes cursor/imagen 5-5.png';" src="img/recursos/imágenes cursor/imagen 5.png" />
+        <img class="img6"  alt="" onmouseout="this.src='img/recursos/imágenes cursor/imagen 6.png';" onmouseover="this.src='img/recursos/imágenes cursor/imagen 6-6.png';" src="img/recursos/imágenes cursor/imagen 6.png" />
+        <img class="img7"  alt="" onmouseout="this.src='img/recursos/imágenes cursor/imagen 7.png';" onmouseover="this.src='img/recursos/imágenes cursor/imagen 7-7.png';" src="img/recursos/imágenes cursor/imagen 7.png" />
+    </div>
+    <div>
+        <img class="carrusel" src="img/recursos/carrusel/carrusel 1.png" alt="">
+    </div>
+    <div>
+        <img class="espcom" src="img/recursos/espacios comunes.png" alt="">
+    </div>
+    <div>
+        <img class="edificio" src="img/recursos/edificio.png" alt="">
+        <div class="div10">
+            <p><img class="piso10"  alt="" onmouseout="this.src='img/recursos/numeros piso/10.png';" onclick="divOpen()" onmouseover="this.src='img/recursos/numeros piso/10 selec.png';" src="img/recursos/numeros piso/10.png" /></p>
+        </div>
+        <div class="div9">
+            <p><img class="piso9"  alt="" onmouseout="this.src='img/recursos/numeros piso/9.png';" onclick="divOpen()" onmouseover="this.src='img/recursos/numeros piso/9 selec.png';" src="img/recursos/numeros piso/9.png" /></p>
+        </div>
+        <div class="div8">
+            <p><img class="piso8"  alt="" onmouseout="this.src='img/recursos/numeros piso/8.png';" onclick="divOpen()" onmouseover="this.src='img/recursos/numeros piso/8 selec.png';" src="img/recursos/numeros piso/8.png" /></p>
+        </div>
+        <div class="div7">
+            <p><img class="piso7"  alt="" onmouseout="this.src='img/recursos/numeros piso/7.png';" onclick="divOpen()" onmouseover="this.src='img/recursos/numeros piso/7 selec.png';" src="img/recursos/numeros piso/7.png" /></p>
+        </div>
+        <div class="div6">
+            <p><img class="piso6"  alt="" onmouseout="this.src='img/recursos/numeros piso/6.png';" onclick="divOpen()" onmouseover="this.src='img/recursos/numeros piso/6 selec.png';" src="img/recursos/numeros piso/6.png" /></p>
+        </div>
+        <div class="div5">
+            <p><img class="piso5"  alt="" onmouseout="this.src='img/recursos/numeros piso/5.png';" onclick="divOpen()" onmouseover="this.src='img/recursos/numeros piso/5 selec.png';" src="img/recursos/numeros piso/5.png" /></p>
+        </div>
+        <div class="div4">
+            <p><img class="piso4"  alt="" onmouseout="this.src='img/recursos/numeros piso/4.png';" onclick="divLogin()" onmouseover="this.src='img/recursos/numeros piso/4 selec.png';" src="img/recursos/numeros piso/4.png" /></p>
+        </div>
+        <div class="div3">
+            <p><img class="piso3"  alt="" onmouseout="this.src='img/recursos/numeros piso/3.png';" onclick="divLogin()" onmouseover="this.src='img/recursos/numeros piso/3 selec.png';" src="img/recursos/numeros piso/3.png" /></p>
+        </div>
+        <div class="div2">
+            <p><img class="piso2"  alt="" onmouseout="this.src='img/recursos/numeros piso/2.png';" onclick="divLogin()" onmouseover="this.src='img/recursos/numeros piso/2 selec.png';" src="img/recursos/numeros piso/2.png" /></p>
+        </div>
+        <div class="div1">
+            <p><img class="piso1"  alt="" onmouseout="this.src='img/recursos/numeros piso/1.png';" onclick="divLogin()" onmouseover="this.src='img/recursos/numeros piso/1 selec.png';" src="img/recursos/numeros piso/1.png" /></p>
+        </div>
+        </div>
+        <div style="margin-left: -300px;">
+              <img class="oculto" id="primerplano" src="img/recursos/bloque-deptos.png" alt="">
+        </div>    
+        <div style="margin-left: -300px;">
+            <img class="oculto" id="segundoplano" src="img/recursos/bloque-deptos.png" alt="">
+        </div>    
+</center>
+</div>
+
+<div  class="unidades">
+        <br>
+        <br>
+    
+            <div>
+            <img src="img/recursos/linea-pisos.png" alt="" style="width: 90%; height: auto; margin-bottom: -500px;">
+            <img class="divfun" alt="" onmouseout="this.src='img/recursos/flecha-arriba.png';" onclick="mostrar1()" onmouseover="this.src='img/recursos/flecha-abajo.png';" src="img/recursos/flecha-arriba.png" style="width: 200px; margin-bottom: -520px; margin-left: -170px; cursor: pointer;"/>
+            <p style="font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: -1400px;margin-top: 420px;margin-left: 200px;">Piso 1</p>
+            </div>
+            <center>
+            <div id="container1" style="display: none;">
+            <img src="img/recursos/unidades/piso-1-4/piso-1-4.png" alt="" style="width: 85%; height: autp; margin-bottom: -2000px;margin-top: 500px;">
+            </div>
+            </center>
+
+            <div>
+            <img src="img/recursos/linea-pisos.png" alt="" style="width: 90%; height: auto; margin-bottom: -1500px;">
+            <img class="divfun" alt="" onmouseout="this.src='img/recursos/flecha-arriba.png';" onclick="mostrar2()" onmouseover="this.src='img/recursos/flecha-abajo.png';" src="img/recursos/flecha-arriba.png" style="width: 200px; margin-bottom: -1520px; margin-left: -170px; cursor: pointer;"/>
+            <p style="font-size: 30px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-bottom: -1400px;margin-top: 1420px;margin-left: 200px;">Piso 2</p>
+            </div>
+            <center>
+            <div id="container2" style="display: none;">
+            <img src="img/recursos/unidades/piso-1-4/piso-1-4.png" alt="" style="width: 85%; height: autp; margin-bottom: -2000px;margin-top: 500px;">
+            </div>
+            </center>
+    
+</div>
+<script src="unidades.js"></script>
+    <script src="pisos.js"></script>
+</body>
+</html>

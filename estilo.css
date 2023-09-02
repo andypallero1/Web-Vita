@@ -1,0 +1,262 @@
+.body{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-image:url(img/recursos/fondo.jpg) ;
+}
+
+.tcolores{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+}
+
+.logo{
+    width: 500px;
+    margin: 50px;
+}
+
+
+
+.vitainfo{
+    width: 100%;
+    height: auto;
+}
+
+.sustentab{
+    width: 400px;
+    margin-top: -1700px;
+    float: right;
+}
+
+.confort
+{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.detalles{
+    width: 100%;
+    height: auto;
+    margin-top: -4px;
+}
+
+ .img1{
+    width: 40%;
+    height: 350px;
+    margin: -8px 0 0 0px;
+ }
+
+ .img2{
+    width: 60%;
+    height: 350px;
+    margin: -8px 0 0 -5px;
+ }
+
+ .img3{
+    width: 70%;
+    height: 350px;
+    margin: -8px 0 0 -5px;
+ }
+
+ .img4{
+    width: 30%;
+    height: 350px;
+    margin: -8px 0 0 0px;
+ }
+
+ .img5{
+    width: 35%;
+    height: 350px;
+    margin: -5px 0 0 0px;
+ }
+
+ .img6{
+    width: 30%;
+    height: 350px;
+    margin: -5px 0 0 -5px;
+
+ }
+
+ .img7{
+    width: 35%;
+    height: 350px;
+    margin: -8px 0 0 -15px;
+}
+
+.carrusel{
+    width: 100%;
+    height: auto;
+}
+
+.espcom{
+    width: 100%;
+    height: auto;
+}
+
+.edificio{
+    width: 100%;
+    height: auto;
+}
+
+.div10{
+    margin-top: -2850px;
+    margin-right: -1600px;
+    cursor: pointer;
+
+}
+
+.piso10{
+    width: 350px;
+    height: 350px;
+}
+
+.div9{
+    margin-top: -140px;
+    margin-right: -1600px;
+    cursor: pointer;
+
+}
+
+.piso9{
+    width: 350px;
+    height: 350px;
+}
+
+.div8{
+    margin-top: -150px;
+    margin-right: -1600px;
+    cursor: pointer;
+
+}
+
+
+.piso8{
+    width: 350px;
+    height: 350px;
+}
+
+.div7{
+    margin-top: -150px;
+    margin-right: -1600px;
+    cursor: pointer;
+
+}
+
+
+.piso7{
+    width: 350px;
+    height: 350px;
+}
+
+.div6{
+    margin-top: -150px;
+    margin-right: -1600px;
+    cursor: pointer;
+
+}
+
+
+.piso6{
+    width: 350px;
+    height: 350px;
+}
+
+.div5{
+    margin-top: -130px;
+    margin-right: -1600px;
+    cursor: pointer;
+
+}
+
+
+.piso5{
+    width: 350px;
+    height: 350px;
+}
+
+.div4{
+    margin-top: -150px;
+    margin-right: -1600px;
+    cursor: pointer;
+
+}
+
+
+.piso4{
+    width: 350px;
+    height: 350px;
+}
+
+.div3{
+    margin-top: -120px;
+    margin-right: -1600px;
+    cursor: pointer;
+
+}
+
+
+.piso3{
+    width: 350px;
+    height: 350px;
+}
+
+.div2{
+    margin-top: -140px;
+    margin-right: -1600px;
+    cursor: pointer;
+
+}
+
+
+.piso2{
+    width: 350px;
+    height: 350px;
+}
+
+.div1{
+    margin-top: -120px;
+    margin-right: -1600px;
+    cursor: pointer;
+}
+
+
+.piso1{
+    width: 350px;
+    height: 350px;
+}
+
+
+#primerplano{
+    width: 0%;
+    margin: 0;
+    margin-top: -1400px;
+    margin-bottom: 400px;
+    height: auto;
+	transition: width .2s;
+}
+
+
+#segundoplano{
+    width: 0%;
+    margin: 0;
+    margin-top: -2700px;
+    margin-bottom: 2200px;
+    height: auto;
+
+}
+
+.unidades{
+    width: 100%;
+    height: 2000px;
+    background-image: url(img/recursos/unidades.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 350px;
+    font-family: Futura Md BT Medium;
+}
+
+.divfun{
+    cursor: pointer!important;
+}
